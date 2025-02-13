@@ -11,15 +11,15 @@ Registration form
          border: 2px solid black;
          border-radius : 20px;
 	 padding: 2px;
-	 margin-left : 290px;
- 	 margin-right : 200px;
+	 margin-left : 25%;
+ 	 margin-right : 24%;
 	 background-color : cadetblue;
 	}
    </style>
 </head>
 
 <body style="background-color:lightgreen" >
-<div class="box" style="text-align: center">
+<div class="box" style="text-align: center;">
 
 <marquee direction="left" >
 Safe 
@@ -31,7 +31,11 @@ Safe
 <legend> <h3>Personal Details </h3> </legend>
 
  	<label for="firstname">First Name : <label> <input type="text" name="fname" id="firstname">
-        <label for="lastname">Last name : </label> <input type="text" name="lname" id="lastname">
+    
+</br>
+</br>
+
+    <label for="lastname">Last name : </label> <input type="text" name="lname" id="lastname">
 	</form>
 	<br>
 	</br>
@@ -79,11 +83,11 @@ Safe
 <fieldset>
 	<legend style="align: center;"> <h3>Educational Details </h3> </legend>
 	Inter percentage : 
-	<input type="number" name="InterPercentage">
+	<input type="number" name="InterPercentage" placeholder="Ex.100%">
 	<br>
 	</br> 
 	Matric percentage : 
-	<input type="number" name="MatricPercentage">
+	<input type="number" name="MatricPercentage" placeholder="Ex.100%">
 	<br>
 	</br>
 	Graduating Institute : 
@@ -102,7 +106,7 @@ Safe
 <fieldset>
 	<legend> <h3>Contact Details</h3> </legend>
 	Mobile Number : 
-        <input type="number" name="mbno." placeholder="XXXXXXXXXXX" >
+        <input type="text" name="mbno." placeholder="XXXXXXXXXXX" >
  	<br>
 	</br>
   	Email id : 
@@ -116,14 +120,15 @@ Safe
         <textarea name="Description" rows="5" cols="10" placeholder="Description"> </textarea>
 <fieldset>
 	<legend> <h2>Upload Documents </h2> </legend>
+    <p>Give you identification proof ( like Adhar card, Passport, ID card, etc. ) </p>
 	<input type="file" name="fileselect" >
 </fieldset>
 
 <br>
 </br>
-<center>
-<button>Submit</button>
-</center>
+
+<button style="text-align: center;">Submit</button>
+
 </div>
 </body>
 
