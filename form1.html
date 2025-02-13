@@ -1,0 +1,130 @@
+<html>
+
+<head>
+
+<title style="text-align: center;">
+Registration form
+</title>
+
+   <style>
+   .box {
+         border: 2px solid black;
+         border-radius : 20px;
+	 padding: 2px;
+	 margin-left : 290px;
+ 	 margin-right : 200px;
+	 background-color : cadetblue;
+	}
+   </style>
+</head>
+
+<body style="background-color:lightgreen" >
+<div class="box">
+
+<marquee direction="left" >
+Safe 
+</marquee>
+<h1 style="color: tomato;">Registration form</h1>
+
+<fieldset>
+
+<legend> <h3>Personal Details </h3> </legend>
+
+ 	<label for="firstname">First Name : <label> <input type="text" name="fname" id="firstname">
+        <label for="lastname">Last name : </label> <input type="text" name="lname" id="lastname">
+	</form>
+	<br>
+	</br>
+ 	Interests : 
+	<select> 
+	<option value="Selectyour interest" >Please select your interest</option>
+	<option value="1" >Cyber Security</option>
+	<option value="2" >Web Dev</option> 
+	<option value="3" >Teaching</option>
+	<option value="4" >App Development</option>
+	<option value="5" >AI/ML/Deep learning</option>
+	<option value="6" >Hacking</option>
+	<option value="7" >Others</option>
+	</select>
+	<br>
+	</br>
+
+	Gender : 
+	
+	<input type="radio" id="male" name="radio1" >
+	<label for="male" >Male </label>
+	
+	<input type="radio" id="male" name="radio1" >
+	<label for="female" >Female </label>
+	
+	<input type="radio" id="others" name="radio1" >
+	<label for="others" >Others </label>
+<br>
+</br>
+	Date of birth : 
+	<input type="date" id="dob" >
+<br>
+</br>
+
+	Age : 
+ 	<input type="number" name="age" >
+<br>
+</br>
+	Address : <br>
+        <textarea name="address" id="Address" rows="8" cols="30" > </textarea>
+
+
+</fieldset>
+
+<fieldset>
+	<legend style="align: center;"> <h3>Educational Details </h3> </legend>
+	Inter percentage : 
+	<input type="number" name="InterPercentage">
+	<br>
+	</br> 
+	Matric percentage : 
+	<input type="number" name="MatricPercentage">
+	<br>
+	</br>
+	Graduating Institute : 
+        <input typt="text" name="college" >
+	<br>
+	</br>
+	Branch : 
+	<input type="text" name="branch" >
+	<br>
+	</br>
+	CGPA : 
+ 	<input type="number" name="cgpa" >
+	
+</fieldset>
+
+<fieldset>
+	<legend> <h3>Contact Details</h3> </legend>
+	Mobile Number : 
+        <input type="number" name="mbno." placeholder="XXXXXXXXXXX" >
+ 	<br>
+	</br>
+  	Email id : 
+        <input type="text" name="email.id">
+	<br>
+	</br>
+</fieldset>
+
+<fieldset>
+	<legend> <h3>Describe yourself in 100 words</h3> </legend>
+        <textarea name="Description" rows="5" cols="10" placeholder="Description"> </textarea>
+<fieldset>
+	<legend> <h2>Upload Documents </h2> </legend>
+	<input type="file" name="fileselect" >
+</fieldset>
+
+<br>
+</br>
+<center>
+<button>Submit</button>
+</center>
+</div>
+</body>
+
+</html>
